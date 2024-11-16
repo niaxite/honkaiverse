@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "DIN";
+  src: url(DIN\ Medium.ttf);
+}
+
+body {
+  background-color: #2b2534;
+}
+
+/*trate de poner una imagen de fndo y se me pixeleo :((*/
+
+.logo {
+  padding-top: 0%;
+  padding-bottom: 0.2%;
+}
+.menubtn {
+  border: none;
+  width: 87.5px;
+  background-color: #464e59;
+  color: #ffff;
+  font-family: "DIN";
+  font-weight: bold;
+  font-size: 0.48cm;
+  text-align: center;
+  padding-bottom: 2.5%;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #677281;
+  width: 175px;
+}
+
+.menu-content a {
+  display: block;
+  text-decoration: none;
+  color: #ffff;
+  font-family: "DIN";
+  font-weight: bold;
+  font-size: 0.43cm;
+  text-align: justify;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.menu:hover .menu-content {
+  display: block;
+}
+
+.loginbtn {
+  position: absolute;
+  top: 0%;
+  margin-left: 94%;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+p {
+  text-align: center;
+  color: #ffff;
+  font-family: "DIN";
+  font-weight: bold;
+  font-size: 0.43cm;
+  text-align: justify;
+  line-height: 0%;
+  margin-left: 95.2%;
+  position: absolute;
+  top: 7.5%;
+}
+
+.searchbar {
+  overflow: hidden;
+  position: absolute;
+  top: 3%;
+  margin-left: 51.5%;
+  border-radius: 30px;
+}
+
+.searchbar input[type="text"] {
+  width: 575px;
+  height: 25px;
+  background-color: #677281;
+  font-family: "DIN";
+  font-weight: bold;
+  font-size: 0.43cm;
+  color: #ffff;
+  border: none;
+}
+
+::placeholder {
+  color: #ffff;
+}
+
+.searchbar input {
+  padding-left: 2.6%;
+  padding-top: 0.2%;
+  padding-bottom: 0.6%;
+}
+
+h1 {
+  font-family: "DIN";
+  font-weight: bold;
+  color: #ffff;
+  margin-top: 0.5%;
+  margin-left: 1%;
+}
